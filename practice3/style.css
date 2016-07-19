@@ -1,0 +1,23 @@
+@media only screen and (min-width: 300px) and (orientation: landscape) {
+.pic {
+	display: block;
+}
+
+.text { display: none;}
+.video {display: none;}
+}
+
+
+@media only screen and (min-aspect-ratio: 4/3) {
+	.text {display:block;}
+	.video {display: none;}
+}
+
+
+@media screen and (min-width: 1px) {
+	.video {display: block;}
+}
+
+@media print and (min-resolution: 90dpi) {
+	.video {display: block;}
+}

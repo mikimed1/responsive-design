@@ -1,0 +1,10 @@
+html, body {height: 100%;}
+
+.bckimg { background-image: url("img/shufer.jpg");
+width:250px;
+height: 110px;
+calc(100% - 70px) calc(100% - 100px) no-repeat;
+}
+
+
+
